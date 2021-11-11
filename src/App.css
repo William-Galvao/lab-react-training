@@ -34,3 +34,31 @@
   font-weight: bold;
 }
 
+.borderCard {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px 20px 20px 20px;
+  width: 300px;
+  border-radius: 5%;
+  height: 180px;
+}
+
+.cardNumber {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+
+.cardText {
+  font-size: 14px;
+}
+
+.cardLogo {
+  text-align: right;
+}
+
+.outCard {
+  display: flex;
+  justify-content: flex-start;
+}
