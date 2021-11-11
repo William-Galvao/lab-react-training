@@ -28,10 +28,9 @@
 
 .borderLang {
   height: auto;
-  border: 2px solid black;
+  border: 1px solid black;
   font-size: 30px;
   margin-top: 20px;
-  font-weight: bold;
 }
 
 .borderCard {
@@ -61,4 +60,11 @@
 .outCard {
   display: flex;
   justify-content: flex-start;
+}
+
+.outDriver{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  border: 2px solid black;
 }

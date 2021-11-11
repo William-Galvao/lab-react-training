@@ -4,7 +4,6 @@ export default function BoxColor(props) {
     let b = props.b;
 
     return <div style={{
-        width: "500px",
         height: "100px",
         background: `rgb(${r}, ${g}, ${b})`,
         margin: "50px",
