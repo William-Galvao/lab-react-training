@@ -8,6 +8,9 @@ import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
 import DriverCard from './DriverCard';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+
 
 function App() {
   return (
@@ -91,6 +94,7 @@ function App() {
         <Rating>5</Rating>
       </div>
       <div>
+        <h1>Driver Card</h1>
         <DriverCard
           name="Travis Kalanick"
           rating={4.2}
@@ -109,6 +113,17 @@ function App() {
           }} />
 
       </div>
+      <div>
+        <h1>Like Button</h1>
+        <LikeButton /> <LikeButton />
+      </div>
+      <h1>Clickable Picture</h1>
+      < ClickablePicture
+        img="/img/persons/maxence.png"
+        imgClicked="/img/persons/maxence-glasses.png"
+      />
+
+      < hr />
     </div>
   );
 

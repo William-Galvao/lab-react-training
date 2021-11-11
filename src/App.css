@@ -67,4 +67,21 @@
   justify-content: center;
   margin: 50px;
   border: 2px solid black;
+  border-radius: 3%;
+  background-color: #1d7ce9;
+  color: white;
+  height: 200px;
+  padding: 18px;
 }
+
+.driverImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.driverElement {
+  margin: 0 50px;
+}
+
+
